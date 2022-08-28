@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #1C1C1C;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    width: 550px;
+    height: 729px;
+    background-color: #1F2937;
+    margin: 126px auto;
+}   
+
+.head {
+    width: 550px;
+    height: 285px;
+    background: #6943FF;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 800;
+    padding-top: 33px;
+}
+
+h3 {
+    color: #CCC1FF;
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 31px;
+}
+
+h4 {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    padding-top: 9px;
+}
+
+.head {
+    width: 550px;
+    height: 285px;
+    background: #6943FF;
+}
+
+.convertions {
+    margin-top: 36px;
+}
+
+.metric-container {
+    background: #273549;
+    height: 108.5px;
+    width:  500px;
+    margin: 23px auto 0 auto;
+    color: #FFFFFF;
+    border-radius: 4.5px;
+}
+
+#convert-btn, #clean-btn     {
+    background: #FFFFFF;
+    height: 45px;
+    width:  115px;
+    padding: 9px 27.5px;
+    border-style: none;
+    border-radius: 5px;
+    color: #3D3D3D;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 20px;
+}
+
+#input-el {
+    min-width: 117px;
+    max-width: 500px;
+    font-weight: 800;
+    height: 83px;
+    background-color: transparent;
+    margin: 30px auto 0 auto;
+    border: solid 2px #B295FF;
+    border-radius: 5px;
+    font-size: 58px;
+    color: #FFFFFF;
+    outline: none;
+    text-align: center;
+    display: inline-block;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
